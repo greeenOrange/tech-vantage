@@ -43,6 +43,12 @@ img, picture, svg {
 a {
   text-decoration: none;
 }
+.order_1{
+  order: 1;
+}
+.order_2{
+  order: 2;
+}
 .container {
   --max-width: 1170px;
   --container-padding: 1rem;
@@ -174,26 +180,72 @@ a {
 .fas{
   font-size: 2rem;
 }
+.streamline_workflow{
+  text-align: center;
+  margin: 5.625rem auto;
+}
+.streamline_workflow_title{
+  color: var(--dark-500);
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.125rem;
+  letter-spacing: -1px;
+  padding-bottom: 2.1875rem;
+}
+.streamline_workflow_dec{
+  max-width: 75.1875rem;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--dark-400);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: -1px;
+}
+.functionality, .software{
+  display: grid;
+  align-items: center;
+  gap: 6.8125rem;
+  margin-bottom: 3.75rem;
+}
+.functionalities, .software_item{
+  margin-bottom: 3.75rem;
+}
+.function-list{
+  color: var(--blue-400);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.125rem;
+  letter-spacing: -1px;
+  padding-bottom: 0.9375;
+}
+.function-title, .software-title{
+  color: var(--dark-500);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3.125rem;
+  letter-spacing: -1px;
+  padding-bottom: 2.1875rem;
+}
+.function-dec, .software-dec{
+  color: var(--dark-400);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: -1px;
+  padding-bottom: 2.1875rem;
+}
+.software_integration{
+  margin-top: 3.415rem;
+}
+
 @media (min-width: 50em){
 .even_columns {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
 }
+.functionality, .software{
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-.streamline_workflow{
-  text-align: center;
-  margin: 0 auto;
 }
