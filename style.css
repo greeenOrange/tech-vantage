@@ -316,8 +316,48 @@ p[data-width="wide"] {
   font-weight: 600;
   line-height: 1.5rem;
 }
-  :where(.flow :not(:first-child)) {
+:where(.flow :not(:first-child)) {
     margin-top: 1rem, 3em;
+}
+.free_items{
+    display: flex;
+    gap: 2.125rem;
+}
+.card{
+  flex: 1 1 auto;
+}
+.card_body{
+  border-radius: 0.25rem;
+  padding: 2rem 2rem 2rem;
+  background: var(--white);
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+.card_label{
+  color: var(--blue-400);
+}
+.card_label .e_book{
+  margin-right: 0.1875rem;
+}
+.card_label span{
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 2px;
+  background: rgba(19, 97, 245, 0.10);
+  padding: 0.150rem .5rem;  
+}
+.card_heading{
+  margin-top: 0.625rem;
+  color: var(--dark-400);
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+.read_more{
+  margin-top: 1.25rem;
+  color: var(--blue-400);
+  font-size: 1.6rem;
+  line-height: 1.5625rem;
+  font-weight: 500;
 }
 @media (min-width: 50em){
 .even_columns {
@@ -333,5 +373,8 @@ p[data-width="wide"] {
 }
 .slider > * {
   width: 27%;
+}
+.card {
+  width: 30%;
 }
 }
